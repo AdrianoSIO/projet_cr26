@@ -57,7 +57,6 @@ Application web de gestion de stock pour un cinéma, permettant la gestion compl
 - **Bootstrap 5.3.3**
 - **Bootstrap Icons**
 - **JavaScript vanilla** (pas de framework)
-- **AJAX** (Fetch API)
 
 ### Sécurité
 - Requêtes préparées (protection injection SQL)
@@ -239,7 +238,6 @@ $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 ### Le panier ne se met pas à jour
 - Vérifier la console JavaScript (F12)
-- Tester sans AJAX (bouton "Manuel")
 - Vérifier les permissions de session PHP
 
 ### Produits non affichés
@@ -255,7 +253,6 @@ $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 - [ ] Import CSV de produits
 
 ### Moyen Terme
-- [ ] API REST
 - [ ] Application mobile
 - [ ] Multi-devises
 - [ ] Gestion de plusieurs entrepôts
@@ -268,17 +265,8 @@ $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 ## 👥 Contributeurs
 
-- **Adriano Razanatera** - Développeur principal
+- **Adriano Razanatera** - Moi
 
-## 📄 Licence
-
-Projet propriétaire - Tous droits réservés © 2025 Le Fauteuil Rouge
-
-## 📞 Support
-
-Pour toute question ou problème :
-- Email : [votre-email]
-- Documentation : [lien-docs]
 
 ---
 
